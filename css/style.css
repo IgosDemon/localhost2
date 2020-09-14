@@ -1,0 +1,159 @@
+@font-face {
+  font-family: "SegoeWPN";
+  src: url("/css/fonts/segoeWPN/SegoeWPN.ttf");
+}
+@font-face {
+  font-family: "SegoeWPN_light";
+  src: url("/css/fonts/segoeWPN/ofont.ru_Segoe WP Light.ttf");
+}
+header {
+  background: rgba(106, 167, 182, 0.5);
+  width: 100%;
+  height: 100px;
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  position: absolute;
+}
+
+.logo {
+  height: 100px;
+  margin-left: 100px;
+  margin-top: 20px;
+}
+.logo a {
+  color: white;
+  font-family: SegoeWPN;
+  font-size: 27.3pt;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.logo a::before {
+  content: url("/img/Instagram.png");
+  transform: scale(1.5) translate(-30px, 0);
+  position: absolute;
+}
+
+.menu {
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-right: 150px;
+  height: 30px;
+  width: 38px;
+  padding: 10px;
+  background: #8cb8c3;
+}
+
+.banner .banner__content input, .banner .banner__content pre {
+  font-family: SegeoWPN_light;
+  font-size: 27.3pt;
+}
+
+.banner {
+  width: 100%;
+  height: 500px;
+  background: url("/img/Layer 2.png");
+  background-size: cover;
+  display: grid;
+  grid-template-columns: 10% 80% 10%;
+}
+.banner .button_slider {
+  margin: 0 auto;
+  margin-top: 225px;
+}
+.banner .button_slider img {
+  cursor: pointer;
+}
+.banner .banner__content {
+  margin-top: 80px;
+  margin-left: 20px;
+}
+.banner .banner__content pre {
+  color: white;
+}
+.banner .banner__content .banner__search {
+  background: white;
+  width: 500px;
+  height: 50px;
+}
+.banner .banner__content input {
+  background: none;
+  border: none;
+  outline: none;
+}
+.banner .banner__content button {
+  border: none;
+  background: none;
+  outline: none;
+}
+
+.registration {
+  height: 115px;
+  width: 100%;
+  border-bottom: 1px solid #8b8b8b;
+}
+.registration article {
+  margin-left: 25%;
+}
+.registration p {
+  font-family: SegeoWPN_light;
+  font-size: 25.3pt;
+  float: left;
+  color: #8b8b8b;
+}
+.registration button {
+  width: 260px;
+  height: 60px;
+  margin-top: 20px;
+  margin-left: 10px;
+  font-size: 25.3pt;
+  color: white;
+  background: #8fcddc;
+  font-family: SegeoWPN_light;
+  border: none;
+  outline: none;
+}
+
+.category {
+  width: 100%;
+  display: grid;
+  grid-template-rows: 85px 195px;
+}
+.category .category__name {
+  font-size: 23.3pt;
+  font-family: SegoeWPN_light;
+  color: #a1a1a1;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 40px;
+}
+.category .category__content {
+  margin-top: 10px;
+  margin-left: 10px;
+  display: grid;
+  width: 99%;
+  grid-template-columns: repeat(5, 20%);
+}
+.category .category__content p {
+  color: #a1a1a1;
+  font-family: SegoeWPN_light;
+  font-size: 15.3pt;
+}
+
+footer {
+  width: 100%;
+  height: 60px;
+  font-size: 17.3pt;
+  background: #484242;
+  color: #A8A6A6;
+  margin-top: 150px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+/*# sourceMappingURL=style.css.map */

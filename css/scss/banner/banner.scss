@@ -1,0 +1,70 @@
+%banner_text {
+  font-family: SegeoWPN_light;
+  font-size: 27.3pt;
+}
+$color_text: white;
+.banner {
+  width: 100%;
+  height: 500px;
+  background: url("/img/Layer\ 2.png");
+  background-size: cover;
+  display: grid;
+  grid-template-columns: 10% 80% 10%;
+  .button_slider {
+    margin: 0 auto;
+    margin-top: 225px;
+    img {
+      cursor: pointer;
+    }
+  }
+  .banner__content {
+      margin-top: 80px;
+      margin-left: 20px;
+    pre {
+      @extend %banner_text;
+      color: $color_text;
+    }
+    .banner__search {
+      background: white;
+      width: 500px;
+      height: 50px;
+    }
+    input {
+      background: none;
+      border: none;
+      @extend %banner_text;
+      outline: none;
+    }
+    button{
+        border: none;
+        background: none;
+        outline: none;
+    }
+  }
+}
+.registration{
+    height: 115px;
+    width: 100%;
+    border-bottom: 1px solid #8b8b8b;
+    article{
+        margin-left: 25%;
+    }
+    p{
+        font-family: SegeoWPN_light;
+        font-size: 25.3pt;
+        float: left;
+        color: #8b8b8b;
+    }
+    button{
+        width: 260px;
+        height: 60px;
+        margin-top: 20px;
+        margin-left: 10px;
+        font-size: 25.3pt;
+        color: white;
+        background: #8fcddc;
+        font-family: SegeoWPN_light;
+        border: none;
+        outline: none;
+    }
+}

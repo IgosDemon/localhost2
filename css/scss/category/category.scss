@@ -1,0 +1,26 @@
+.category{
+    width: 100%;
+    display: grid;
+    grid-template-rows: 85px 280-85px;
+    .category__name{
+        font-size: 23.3pt;
+        font-family: SegoeWPN_light;
+        color: #a1a1a1;
+        text-transform: uppercase;
+        text-align: center;
+        padding-top: 40px;
+    }
+    .category__content{
+        margin-top: 10px;
+        margin-left: 10px;
+        display: grid;
+        width: 99%;
+        grid-template-columns: repeat(5, 20%);
+        
+        p{
+            color: #a1a1a1;
+            font-family: SegoeWPN_light;
+            font-size: 15.3pt;
+        }
+    }
+}

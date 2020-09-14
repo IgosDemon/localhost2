@@ -1,0 +1,18 @@
+@font-face{
+    font-family: "SegoeWPN";
+    src: url("/css/fonts/segoeWPN/SegoeWPN.ttf");
+}
+@font-face{
+    font-family: "SegoeWPN_light";
+    src: url("/css/fonts/segoeWPN/ofont.ru_Segoe\ WP\ Light.ttf");
+}
+@import './header/header';
+@import './banner/banner.scss';
+@import './category/category.scss';
+@import './footer/footer.scss';
+
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
